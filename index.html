@@ -4,14 +4,148 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/sprite.css">
+  <link rel="stylesheet" href="css/reset.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
 
   <script src="js/script.js" async></script>
-
   <title>Petrosol</title>
 </head>
 <body>
-  <h1>Hello World</h1>
-</body>
+  <header>
+    <div class="toolbarWrapper">
+      <div class="toolbar">
+        <span>Compartilhe nas redes sociais: </span>
+        <div class="toolbarIcons">
+          <a href="#" class="toolbarFacebook" aria-label="Facebook"></a>
+          <a href="#" class="toolbarTwitter" aria-label="Twitter"></a>
+          <a href="#" class="toolbarMore" aria-label="Mais"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navWrapper">
+      <nav class="navbar">
+        <button class="menuToggle" type="button" id="mobileMenu" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav">
+          <li class="navItem"><a href="#">Quem Somos</a></li>
+          <li class="navItem"><a href="#">Soluções</a></li>
+          <li class="navItem"><a href="#">Clientes e Parceiros</a></li>
+          <li class="navItem"><a href="#">Notícias</a></li>
+          <li class="navItem"><a href="#">Contato</a></li>
+          <li class="navItem responsiveIcons">
+            <a href="#" class="menuFacebook" aria-label="Facebook"></a>
+            <a href="#" class="menuTwitter" aria-label="Twitter"></a>
+            <a href="#" class="menuGooglePlus" aria-label="Google Plus"></a>
+            <a href="#" class="menuMore" aria-label="Mais"></a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <img src="/media/img/logo.png" class="logoContainer" alt="Petrosol">
+    <div class="carouselWrapper">
+      <div id="homeCarousel" class="owl-carousel owl-theme">
+        <div class="owl-slide" id="slideOne" data-dot="<span>1</span>">
+          <div class="owlContent">
+            <div class="owlText">
+              <div>
+                <h3>Consultoria e Representações na Indústria de 
+                  <span class="blueText">Óleo e Gás!</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-slide" id="slideTwo" data-dot="<span>2</span>">
+          <div class="owlContent">
+            <div class="owlText">
+              <div>
+                <h3>Consultoria e Representações na Indústria de 
+                  <span class="blueText">Óleo e Gás!</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-slide" id="slideThree" data-dot="<span>3</span>">
+          <div class="owlContent">
+            <div class="owlText">
+              <div>
+                <h3>Consultoria e Representações na Indústria de 
+                  <span class="blueText">Óleo e Gás!</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-slide" id="slideFour" data-dot="<span>4</span>">
+          <div class="owlContent">
+            <div class="owlText">
+              <div>
+                <h3>Consultoria e Representações na Indústria de 
+                  <span class="blueText">Óleo e Gás!</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-slide" id="slideFive" data-dot="<span>5</span>">
+          <div class="owlContent">
+            <div class="owlText">
+              <div>
+                <h3>Consultoria e Representações na Indústria de 
+                  <span class="blueText">Óleo e Gás!</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="divider"></div>
+    <div class="footerWrapper">
+      <div class="contact">
+        <div class="address">
+          <span class="addressIcon"></span>
+          <div id="footerDesktop">
+            <p>Rua Itaperuna, nº 200 | Santa Rosa, Niterói, Rio de Janeiro, Brasil</p>
+            <p>CEP: 24240-070 | Tel.: (21) 2621-7788 / (21) 2613-3700 </p>
+          </div>
+          <div id="footerMobile">
+            <p>Rua Itaperuna, nº 200 | Santa Rosa</p>
+            <p>Niterói, Rio de Janeiro, Brasil</p>
+            <p>CEP: 24240-070</p> 
+            <p>Tel.: (21) 2621-7788 / (21) 2613-3700 </p>
+          </div>
+        </div>
+      <div class="email">
+        <span class="mailIcon"></span>
+        <p>contato@petrosol.adv.br</p>
+      </div>
+      </div>
+      
+      <div class="internit">
+        <a href="https://internit.com.br/" class="logoInternit" aria-label="Internit"></a>
+        <strong class="text-uppercase">Internit</strong>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+</body> 
 </html>

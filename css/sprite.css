@@ -1,0 +1,43 @@
+.menuFacebook {
+  background: url(../media/img/sprite.png) -82px -10px;
+}
+
+.menuTwitter {
+  background: url(../media/img/sprite.png) -10px -10px;
+}
+
+.menuGooglePlus {
+  background: url(../media/img/sprite.png) -46px -46px;
+}
+
+.menuMore {
+  background: url(../media/img/sprite.png) -46px -10px;
+}
+
+.toolbarFacebook {
+  background: url(../media/img/sprite.png) -82px -82px no-repeat;
+}
+
+.toolbarTwitter {
+  background: url(../media/img/sprite.png) -46px -82px no-repeat;
+}
+
+.toolbarMore {
+  background: url(../media/img/sprite.png) -10px -82px no-repeat;
+}
+
+nav .navbar-toggler-icon {
+  background: url(../media/img/sprite.png) -10px -46px !important;
+}
+
+footer .addressIcon {
+  background: url(../media/img/sprite.png) -118px -10px;
+}
+
+footer .mailIcon {
+  background: url(../media/img/sprite.png) -82px -46px;
+}
+
+footer .logoInternit {
+  background: url(../media/img/sprite.png) -118px -40px;
+}

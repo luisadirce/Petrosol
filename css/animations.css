@@ -1,0 +1,21 @@
+.carouselNavImg {
+  -webkit-animation: 0.5s linear 0s infinite alternate moveArrow;
+  animation: 0.5s linear 0s infinite alternate moveArrow;
+}
+
+@-webkit-keyframes moveArrow {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 5%;
+  }
+}
+@keyframes move_Arrow {
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 5%;
+  }
+}
